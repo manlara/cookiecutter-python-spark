@@ -18,7 +18,7 @@ default_context:
 
 To generate a project from this cookiecutter do
 ```
-cookiecutter gh:manlara/cookiecutter-python-spark --default-config config.yaml
+cookiecutter gh:manlara/cookiecutter-python-spark --config-file config.yaml
 ```
 
 This will generate a folder ending in `-job` and beginning with the input project name lowercased and spaces replaced with an underscore.
