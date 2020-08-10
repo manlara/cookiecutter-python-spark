@@ -1,0 +1,3 @@
+# To bundle data (non .py files) in your application you MUST specify each file/folder
+# For more info and options visit: https://packaging.python.org/guides/using-manifest-in/
+# example: recursive-include dir pat1 pat2 ...

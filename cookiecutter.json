@@ -1,0 +1,9 @@
+{
+    "author_name": "Your Name Here",
+    "author_email": "Your email here",
+    "project_name": "",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    "version": "0.1",
+	"docker_image": "jupyter/pyspark-notebook:d4cbf2f80a2a"
+}

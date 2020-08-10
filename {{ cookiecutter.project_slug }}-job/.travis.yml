@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - "3.6"
+
+install: 
+  - pip3 install databricks-cli
+
+script:
+  - sh test.sh
+  - python3 setup.py sdist bdist_wheel
+  - sh deploy.sh
+
+branches:
+  only:
+    - master
